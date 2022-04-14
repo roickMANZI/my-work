@@ -14,9 +14,17 @@ form{
     
 }
 .image{
+    width: 30px;
+    height: 20px;
     text-align: center;
     border: 2px;
     border-radius: 10px;
+}
+.image:hover{
+   width: 35ps;
+   height: 25px;
+    transition: 00.5s;
+   
 }
 .image{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,13 +46,15 @@ footer{
 
 .cont3
 {
-    margin-top: 22px;
+    width: 350px;
+    margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
     background-color: black;
     color: #fff;
     font-family: Arial;
-    height: 37px;
+    height: 37px;   
+    cursor: pointer;
 }
 .image
 {
